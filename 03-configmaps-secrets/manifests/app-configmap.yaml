@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  GREETING: "Hello from ConfigMap"
+  APP_ENV: "development"
